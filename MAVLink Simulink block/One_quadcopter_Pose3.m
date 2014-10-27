@@ -30,22 +30,22 @@ ViconPose(6) = QuadEulerXYZ.Rotation(3); % Yaw
 % *********************************
 
 
-% X, Y, Z Global Coordinates of the Marker
+% % X, Y, Z Global Coordinates of the Marker
 Output_GetMarkerGlobalTranslation = MyClient.GetMarkerGlobalTranslation('0811V1', 'First');
-ViconPose(7) = Output_GetMarkerGlobalTranslation('0811V1', 'First');
-ViconPose(8) = Output_GetMarkerGlobalTranslation('0811V1', 'First');
-ViconPose(9) = Output_GetMarkerGlobalTranslation('0811V1', 'First');
+ViconPose(7) = Output_GetMarkerGlobalTranslation.Translation(1);
+ViconPose(8) = Output_GetMarkerGlobalTranslation.Translation(2);
+ViconPose(9) = Output_GetMarkerGlobalTranslation.Translation(3);
 
 % *********************************
 % 2nd Marker
 % *********************************
-
+ 
 
 % X, Y, Z Global Coordinates of the Marker
 Output_GetMarkerGlobalTranslation = MyClient.GetMarkerGlobalTranslation('0811V1', 'Second');
-ViconPose(10) = Output_GetMarkerGlobalTranslation('0811V1', 'Second');
-ViconPose(11) = Output_GetMarkerGlobalTranslation('0811V1', 'Second');
-ViconPose(12) = Output_GetMarkerGlobalTranslation('0811V1', 'Second');
+ViconPose(10) = Output_GetMarkerGlobalTranslation.Translation(1);
+ViconPose(11) = Output_GetMarkerGlobalTranslation.Translation(2);
+ViconPose(12) = Output_GetMarkerGlobalTranslation.Translation(3);
 
 % *********************************
 % 3nd Marker
@@ -54,12 +54,9 @@ ViconPose(12) = Output_GetMarkerGlobalTranslation('0811V1', 'Second');
 
 % X, Y, Z Global Coordinates of the Marker
 Output_GetMarkerGlobalTranslation = MyClient.GetMarkerGlobalTranslation('0811V1', 'Third');
-ViconPose(13) = Output_GetMarkerGlobalTranslation('0811V1', 'Third');
-ViconPose(14) = Output_GetMarkerGlobalTranslation('0811V1', 'Third');
-ViconPose(15) = Output_GetMarkerGlobalTranslation('0811V1', 'Third');
-
-
-
+ViconPose(13) = Output_GetMarkerGlobalTranslation.Translation(1);
+ViconPose(14) = Output_GetMarkerGlobalTranslation.Translation(2);
+ViconPose(15) = Output_GetMarkerGlobalTranslation.Translation(3);
 end 
 
 
