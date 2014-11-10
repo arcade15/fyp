@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<KinematicModel VERSION="2.5" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.vicon.com/Schemas/ViconVST.xsd">
+
+  <Parameters>
+    <Parameter HIDDEN="1" NAME="ureca 1a_Unlabeled27763_x" PRIOR="16.9765167236328" SD="1.00000002004088e+020" VALUE="16.9765167236328"/>
+    <Parameter HIDDEN="1" NAME="ureca 1a_Unlabeled27763_y" PRIOR="51.6235466003418" SD="1.00000002004088e+020" VALUE="51.6235466003418"/>
+    <Parameter HIDDEN="1" NAME="ureca 1a_Unlabeled27763_z" PRIOR="0.542639136314392" SD="1.00000002004088e+020" VALUE="0.542639136314392"/>
+    <Parameter HIDDEN="1" NAME="ureca 1a_Unlabeled28832_x" PRIOR="19.3243827819824" SD="1.00000002004088e+020" VALUE="19.3243827819824"/>
+    <Parameter HIDDEN="1" NAME="ureca 1a_Unlabeled28832_y" PRIOR="-31.7009696960449" SD="1.00000002004088e+020" VALUE="-31.7009696960449"/>
+    <Parameter HIDDEN="1" NAME="ureca 1a_Unlabeled28832_z" PRIOR="-1.77425539493561" SD="1.00000002004088e+020" VALUE="-1.77425539493561"/>
+    <Parameter HIDDEN="1" NAME="ureca 1a_Unlabeled28833_x" PRIOR="-66.9266738891602" SD="1.00000002004088e+020" VALUE="-66.9266738891602"/>
+    <Parameter HIDDEN="1" NAME="ureca 1a_Unlabeled28833_y" PRIOR="-116.212158203125" SD="1.00000002004088e+020" VALUE="-116.212158203125"/>
+    <Parameter HIDDEN="1" NAME="ureca 1a_Unlabeled28833_z" PRIOR="1.30435788631439" SD="1.00000002004088e+020" VALUE="1.30435788631439"/>
+    <Parameter HIDDEN="1" NAME="ureca 1a_Unlabeled28834_x" PRIOR="96.5908889770508" SD="1.00000002004088e+020" VALUE="96.5908889770508"/>
+    <Parameter HIDDEN="1" NAME="ureca 1a_Unlabeled28834_y" PRIOR="46.2579307556152" SD="1.00000002004088e+020" VALUE="46.2579307556152"/>
+    <Parameter HIDDEN="1" NAME="ureca 1a_Unlabeled28834_z" PRIOR="0.323828130960464" SD="1.00000002004088e+020" VALUE="0.323828130960464"/>
+    <Parameter HIDDEN="1" NAME="ureca 1a_Unlabeled28835_x" PRIOR="-65.9651260375977" SD="1.00000002004088e+020" VALUE="-65.9651260375977"/>
+    <Parameter HIDDEN="1" NAME="ureca 1a_Unlabeled28835_y" PRIOR="50.0316505432129" SD="1.00000002004088e+020" VALUE="50.0316505432129"/>
+    <Parameter HIDDEN="1" NAME="ureca 1a_Unlabeled28835_z" PRIOR="-0.396569818258286" SD="1.00000002004088e+020" VALUE="-0.396569818258286"/>
+  </Parameters>
+
+  <Skeleton>
+    <Segment BOUNDS="-50 -50 -50 50 50 50 " CONTEXT="General" INERTIA="0 0 0 " MASS="0 " MASS-CENTRE="0 0 0 " NAME="ureca 1a" RGB="255 164 0">
+      <JointFree BOUNDS="0 0 0 0 0 0 0 0 0 0 0 0" COVARIANCE="2.46490001678467 0 0 0 0 0  0 2.46490001678467 0 0 0 0  0 0 246.490005493164 0 0 0  0 0 0 1000000 0 0  0 0 0 0 1000000 0  0 0 0 0 0 1000000  " MEAN="0 0 0 0 0 0" NAME="World_ureca 1a" POST-ORIENTATION="0 0 0" POST-POSITION="0 0 0" PRE-ORIENTATION="0 0 0" PRE-POSITION="0 0 0" SIGNS="+ + + + + + " T="* * * * * * ">
+        <JointTemplate COVARIANCE="2.46490001678467 0 0 0 0 0  0 2.46490001678467 0 0 0 0  0 0 246.490005493164 0 0 0  0 0 0 1000000 0 0  0 0 0 0 1000000 0  0 0 0 0 0 1000000  " MEAN="0 0 0 0 0 0" POST-ORIENTATION="0 0 0 " POST-POSITION="0 0 0 " PRE-ORIENTATION="0 0 0 " PRE-POSITION="0 0 0 " TPOSE-COVARIANCE="0.100000001490116 0 0 0 0 0  0 0.100000001490116 0 0 0 0  0 0 0.100000001490116 0 0 0  0 0 0 0.100000001490116 0 0  0 0 0 0 0.100000001490116 0  0 0 0 0 0 0.100000001490116  " TPOSE-MEAN="0 0 0 0 0 0"/>
+      </JointFree>
+    </Segment>
+  </Skeleton>
+
+  <MarkerSet>
+    <Markers>
+      <Marker COVARIANCE="1 0 0 0 1 0 0 0 1 " NAME="marker1" POSITION="16.9765 51.6235 0.542639" RADIUS="12.5" RGB="255 164 0" SEGMENT="ureca 1a" STATUS="required">
+        <MarkerTemplate COVARIANCE="1 0 0 0 1 0 0 0 1 " PLACEMENT-COVARIANCE="1 0 0 0 1 0 0 0 1 " POSITION="'ureca 1a_Unlabeled27763_x' 'ureca 1a_Unlabeled27763_y' 'ureca 1a_Unlabeled27763_z'"/>
+      </Marker>
+      <Marker COVARIANCE="1 0 0 0 1 0 0 0 1 " NAME="marker2" POSITION="19.3244 -31.701 -1.77426" RADIUS="12.5" RGB="255 164 0" SEGMENT="ureca 1a" STATUS="optional">
+        <MarkerTemplate COVARIANCE="1 0 0 0 1 0 0 0 1 " PLACEMENT-COVARIANCE="1 0 0 0 1 0 0 0 1 " POSITION="'ureca 1a_Unlabeled28832_x' 'ureca 1a_Unlabeled28832_y' 'ureca 1a_Unlabeled28832_z'"/>
+      </Marker>
+      <Marker COVARIANCE="1 0 0 0 1 0 0 0 1 " NAME="marker3" POSITION="-66.9267 -116.212 1.30436" RADIUS="12.5" RGB="255 164 0" SEGMENT="ureca 1a" STATUS="optional">
+        <MarkerTemplate COVARIANCE="1 0 0 0 1 0 0 0 1 " PLACEMENT-COVARIANCE="1 0 0 0 1 0 0 0 1 " POSITION="'ureca 1a_Unlabeled28833_x' 'ureca 1a_Unlabeled28833_y' 'ureca 1a_Unlabeled28833_z'"/>
+      </Marker>
+      <Marker COVARIANCE="1 0 0 0 1 0 0 0 1 " NAME="marker4" POSITION="96.5909 46.2579 0.323828" RADIUS="12.5" RGB="255 164 0" SEGMENT="ureca 1a" STATUS="optional">
+        <MarkerTemplate COVARIANCE="1 0 0 0 1 0 0 0 1 " PLACEMENT-COVARIANCE="1 0 0 0 1 0 0 0 1 " POSITION="'ureca 1a_Unlabeled28834_x' 'ureca 1a_Unlabeled28834_y' 'ureca 1a_Unlabeled28834_z'"/>
+      </Marker>
+      <Marker COVARIANCE="1 0 0 0 1 0 0 0 1 " NAME="marker5" POSITION="-65.9651 50.0317 -0.39657" RADIUS="12.5" RGB="255 164 0" SEGMENT="ureca 1a" STATUS="optional">
+        <MarkerTemplate COVARIANCE="1 0 0 0 1 0 0 0 1 " PLACEMENT-COVARIANCE="1 0 0 0 1 0 0 0 1 " POSITION="'ureca 1a_Unlabeled28835_x' 'ureca 1a_Unlabeled28835_y' 'ureca 1a_Unlabeled28835_z'"/>
+      </Marker>
+    </Markers>
+    <Sticks>
+      <Stick MARKER1="marker1" MARKER2="marker2" RGB="255 164 0"/>
+      <Stick MARKER1="marker1" MARKER2="marker3" RGB="255 164 0"/>
+      <Stick MARKER1="marker1" MARKER2="marker4" RGB="255 164 0"/>
+      <Stick MARKER1="marker1" MARKER2="marker5" RGB="255 164 0"/>
+      <Stick MARKER1="marker2" MARKER2="marker3" RGB="255 164 0"/>
+      <Stick MARKER1="marker2" MARKER2="marker4" RGB="255 164 0"/>
+      <Stick MARKER1="marker2" MARKER2="marker5" RGB="255 164 0"/>
+      <Stick MARKER1="marker3" MARKER2="marker4" RGB="255 164 0"/>
+      <Stick MARKER1="marker3" MARKER2="marker5" RGB="255 164 0"/>
+      <Stick MARKER1="marker4" MARKER2="marker5" RGB="255 164 0"/>
+    </Sticks>
+  </MarkerSet>
+
+  <Alignment/>
+
+</KinematicModel>
